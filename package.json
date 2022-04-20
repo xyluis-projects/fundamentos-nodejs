@@ -1,0 +1,31 @@
+{
+  "name": "fundamentos-nodejs",
+  "version": "1.0.0",
+  "description": "Project for Ignite nodejs fundamentals challenge",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyluis-projects/fundamentos-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xyluis-projects/fundamentos-nodejs/issues"
+  },
+  "homepage": "https://github.com/xyluis-projects/fundamentos-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
